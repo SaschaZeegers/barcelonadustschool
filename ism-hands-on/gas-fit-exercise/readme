@@ -1,0 +1,28 @@
+This folders contains XMM RGS data of the X-ray binary 4U 1820-30. We will use it to fit different gas components along the line of sight.
+
+Fit several components of the ISM with different temperatures. For more inspiration check Costantini et al. 2012 or Rogantini et al. 2021
+
+Use the following settings to start:
+dist 7.6 kpc
+
+com bb
+com comt
+com hot 
+com amol
+com hot 
+com hot 
+
+relate the models!
+
+par 1 1 t v 0.14
+par 1 1 n v 5e-5
+
+par 1 2 n v 2.0 
+par 1 2 t0 v 0.32 
+par 1 2 t1 v 29
+par 1 2 tau v 3 
+
+These are useful dust models for amol:
+par 1 4 i1 v 3302
+par 1 4 i2 v 4103
+
