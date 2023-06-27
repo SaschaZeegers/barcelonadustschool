@@ -68,19 +68,15 @@ directory `ism-hands-on`.
 
 ### Exercise 3: Fitting ISM dust and multi-temperature gas along the line of sight of an X-ray binary
 
-In this exercise we will fit simulated XMM RGS data of the X-ray binary
-4U 1820-30. We will use it to fit different gas components along the
-line of sight.
+In this exercise we will fit simulated XMM RGS data of an X-ray binary with a warm gas along the line of sight. The data can be found in this folder.
+The goal of the exercise is to retrieve the temperature of this warm gas and retrieve column densities of the dust and cold gas along this line of sight.
 
-This folder contains XMM RGS data of the X-ray binary 4U 1820-30. Let us
-try to fit several components of the ISM with different temperatures.
-For more inspiration check [Costantini et al.
+For more inspiration about multi-temperature gas along X-ray binary sightlines check [Costantini et al.
 2012](https://ui.adsabs.harvard.edu/abs/2012A%26A...539A..32C/abstract)
 or [Rogantini et al.
 2021](https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..98R/abstract).
 
-The filenames are `xrism-sim-xraybinary/simxmm2.res` and
-`xrism-sim-xraybinary/simxmm2.spo`.
+The data filenames are `multitemp/simxmm3.res` and `multitemp/simxmm3.spo`.
 
 Use the following settings to start:
 
